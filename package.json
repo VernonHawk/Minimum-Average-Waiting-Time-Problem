@@ -1,0 +1,37 @@
+{
+  "name": "minimum-average-waiting-time-problem",
+  "version": "0.1.0",
+  "dependencies": {},
+  "scripts": {
+    "main": "node src/main.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "jest": "22.4.3"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js}",
+      "<rootDir>/tests/**/?(*.)(spec|test).{js}"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx",
+      "node"
+    ]
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/VernonHawk/Minimum-Average-Waiting-Time-Problem.git"
+  }
+}
