@@ -1,5 +1,5 @@
 # Description
-A JavaScript implementation of a solution of the problem of Minimum Average Waiting Time Problem  
+A JavaScript implementation of a solution of the Minimum Average Waiting Time Problem  
 https://www.hackerrank.com/challenges/minimum-average-waiting-time/problem.
 
 Algoritm:
